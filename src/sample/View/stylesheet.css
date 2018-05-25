@@ -1,0 +1,19 @@
+.table-row-cell:hover {
+    -fx-background-color: rgb(117, 170, 255);
+}
+
+.table-row-cell:pressed {
+    -fx-background-color: rgb(47, 110, 200);
+}
+
+.table-row-cell:empty {
+    -fx-background-color: white;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.highlightCell {
+    -fx-border-color: red;
+}
